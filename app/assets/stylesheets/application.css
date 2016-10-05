@@ -11,6 +11,8 @@
  * file per style scope.
  *
  *= require bootstrap
+ *= require fixed-positioning
+ *= require main
  *= require_tree .
  *= require_self
  */

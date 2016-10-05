@@ -1,0 +1,21 @@
+#bg1 {
+	z-index:50;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background: image-url('bokeh.jpg');
+	background-repeat: no-repeat;
+}
+
+#bg2 {
+	z-index:49;
+	background: image-url('GIRL.png');
+	background-repeat: no-repeat;
+}
+
+#bg3 {
+	z-index:48;
+	background: image-url('GUYGIRL.png');
+	background-repeat: no-repeat;
+}

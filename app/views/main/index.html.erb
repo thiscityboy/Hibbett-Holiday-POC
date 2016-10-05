@@ -1,0 +1,58 @@
+<style>
+
+body {
+	background-color: black;
+}
+
+img {
+	width: 100%;
+}
+
+.logo {
+	position: relative;
+	z-index: 9999;
+}
+
+.logo img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+</style>
+
+	<div id="bg1" data-0="background-position:-500px 0px;" data-6000="background-position:0px 0px;"></div>
+
+	<div class="logo">
+		<div data-0="top:50%;transform:scale(4);opacity:0;" data-6000="top:50%;transform:scale(.5);opacity:1;">
+			<%= image_tag "hibbett-logo.svg", width: "50%" %>
+		</div>
+	</div>
+
+	<div data-500="transform:translate(0,400%);" data-5000="transform:translate(0, 500%);">
+		<%= image_tag "GUYGIRL.png", width: "100%" %>
+	</div>
+
+	<div data-200="transform:translate(0,150%);" data-6000="transform:translate(0, -400%);">
+		<%= image_tag "WHITEPEOPLE.png", width: "100%" %>
+	</div>
+
+	<div data-1000="transform:translate(0,-600%);" data-6000="transform:translate(0, 200%);">
+		<%= image_tag "BOY.png", width: "100%" %>
+	</div>
+
+	<div data-1500="transform:translate(0,0%);" data-6000="transform:translate(0, 500%);">
+		<%= image_tag "KIDS.png", width: "100%" %>
+	</div>
+
+	<div data-400="transform:translate(0,600%);" data-5000="transform:translate(0, 0%);">
+		<%= image_tag "SASS.png", width: "100%" %>
+	</div>
+
+
+	<script type="text/javascript">
+	skrollr.init({
+		smoothScrolling: true,
+		mobileDeceleration: 0.004
+	});
+	</script>
