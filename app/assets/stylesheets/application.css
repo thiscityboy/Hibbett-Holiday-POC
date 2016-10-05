@@ -12,6 +12,7 @@
  *
  *= require bootstrap
  *= require fixed-positioning
+ *= require animate
  *= require main
  *= require_tree .
  *= require_self
