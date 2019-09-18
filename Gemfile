@@ -8,7 +8,6 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'devise'
 gem 'rails_admin'
-gem 'msg_toolbox', source: 'https://repo.fury.io/svdEKiyaqdZ1xhagHajp/me/'
 
 group :development, :test do
   gem 'better_errors'
